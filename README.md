@@ -45,4 +45,6 @@ https://stackoverflow.com/a/60296263
 
 ### Anything else?
 
-[Interaction Patterns • Akka Documentation](https://doc.akka.io/docs/akka/current/typed/interaction-patterns.html#scheduling-messages-to-self) is very insightful.
+Here is some documentation I found insightful:
+
+[Interaction Patterns • Akka Documentation](https://doc.akka.io/docs/akka/current/typed/interaction-patterns.html#scheduling-messages-to-self)
