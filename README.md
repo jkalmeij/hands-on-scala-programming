@@ -13,37 +13,8 @@ This repository attemps to reimplement the examples from Chapter 16:
 - State Machine Upload Actor (see `StateMachine.sc`)
 - Multi-stage Logging Pipeline (see `MultiStageLoggingPipeline.sc`)
 - Non-Linear Pipeline (see `NonLinearLoggingPipeline.sc`)
-- Debugging Actors (see `DebuggingActors.sc`)
+- [TODO] Debugging Actors (see `DebuggingActors.sc`)
 
-## What I learned about akka
+## Disclaimer
 
-I am not an expert. This repo is the result of me playing with Akka for a day. The chances of me being misinformed are quite high.
-
-### Documentation?
-
-Akka's API has evolved throughout the years.
-
-I couldn't find the exact details on it, but if you're just going to google documentation you're going to find some outdated docs.
-
-Typically you will want to work with `akka.actor.typed` ("the new actor API") instead of `akka.actor` ("the classic actor API") (as per the official documentation: [Classic Actors • Akka Documentation](https://doc.akka.io/docs/akka/current/actors.html)).
-
-I guess if you stick with [](https://doc.akka.io/) you're hopefully fine.
-
-### FP or OOP
-
-Akka offers two flavors of the Actor API: Functional and OOP. The [Style guide • Akka Documentation](https://doc.akka.io/docs/akka/current/typed/style-guide.html#functional-versus-object-oriented-style) goes into more detail.
-
-### `this` vs `Behaviors.same`
-
-They are the same thing. Recommendation seems to be:
-
-- `this` for OOP-style.
-- `Behaviors.same` for FP-style.
-
-https://stackoverflow.com/a/60296263
-
-### Anything else?
-
-Here is some documentation I found insightful:
-
-[Interaction Patterns • Akka Documentation](https://doc.akka.io/docs/akka/current/typed/interaction-patterns.html#scheduling-messages-to-self)
+I am not an expert in akka. I haven't learned akka streams yet but I have the suspicion that they would be a better fit to what we are trying to do in these examples.
