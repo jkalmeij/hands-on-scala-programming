@@ -1,3 +1,7 @@
+// JK: this is needed to work around the fact that ammonite 
+// for scala 2.3.17 has not yet been released.
+// (https://github.com/com-lihaoyi/Ammonite/releases)
+// Ammonite 2.5.0
 import $ivy.`com.typesafe.akka::akka-actor-typed:2.6.18`
 import $ivy.`com.lihaoyi:os-lib_2.11:0.8.0`
 
