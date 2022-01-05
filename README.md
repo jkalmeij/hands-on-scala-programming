@@ -11,7 +11,6 @@ This repository attemps to reimplement the examples from Chapter 16:
 - Simple Upload Actor (see `Simple.sc`)
 - Batch Upload Actor (see `Batch.sc`)
 - State Machine Upload Actor (see `StateMachine.sc`)
-- Logging Pipeline (see `LoggingPipeline.sc`)
 - Multi-stage Logging Pipeline (see `MultiStageLoggingPipeline.sc`)
 - Non-Linear Pipeline (see `NonLinearLoggingPipeline.sc`)
 - Debugging Actors (see `DebuggingActors.sc`)
